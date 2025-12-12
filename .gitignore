@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+declare module "*.jpg";
+declare module "*.jpeg";
+declare module "*.png";
+declare module "*.svg";

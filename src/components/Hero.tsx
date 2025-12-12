@@ -139,7 +139,7 @@ const Hero = () => {
               <div className="hidden md:block">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <div className="bg-primary text-white font-bold text-lg px-4 py-2 rounded-lg inline-block mb-2">
-                    MASTERCLASS ON SMART MONEY TRADING WITH MAHESH
+                    MAHESH KADARI
                   </div>
 
                   <div className="flex gap-4 text-sm mt-2">
@@ -157,7 +157,7 @@ const Hero = () => {
             {/* MOBILE TEXT — below image */}
             <div className="block md:hidden mt-4 p-6">
               <div className="bg-primary text-white font-bold text-lg px-4 py-2 rounded-lg inline-block mb-2">
-                MASTERCLASS ON SMART MONEY TRADING WITH MAHESH
+                MAHESH KADARI
               </div>
 
               <div className="flex gap-4 text-sm mt-2">
@@ -178,8 +178,8 @@ const Hero = () => {
           <div className="bg-muted/10 backdrop-blur-sm border border-white/10 rounded-xl p-6 max-w-4xl mx-auto">
             <p className="text-lg">
               Learn from{" "}
-              <span className="font-bold text-primary">Mahesh Karan</span> — Fund Manager,
-              Professional Trader, and Smart Money Specialist {" "}
+              <span className="font-bold text-primary">Mahesh Kadari</span> — Fund Manager,
+              Professional Trader, <span className="font-bold text-primary">Collaborate with Paytm Money</span>, Smart Money Specialist, NISM Certified {" "}
               <br></br>Learn directly from an industry expert <span className="font-bold text-primary">trusted by thousands of traders.</span>
             </p>
           </div>
