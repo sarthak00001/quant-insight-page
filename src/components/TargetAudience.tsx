@@ -2,12 +2,12 @@ import { CheckCircle2 } from "lucide-react";
 
 const TargetAudience = () => {
   const points = [
-    "If you find yourself stuck thinking which stocks to invest in.",
-    "If you want to create a passive source of income through trading.",
-    "If you are tired of having losses in your portfolio.",
-    "If you want to learn systematic algorithmic trading strategies.",
-    "If you want to leverage AI and technology for better returns.",
-    "If you're looking to automate your trading decisions.",
+    "You tired of entering trades only to get hit by stop-loss hunts.",
+    "You want to understand how big players really move the market.",
+    "You want to decode manipulation, traps, and institutional intent.",
+    "You want clarity instead of confusion from random patterns.",
+    "You want to trade in alignment with Smart Money—not against it.",
+    "You want to learn systematic algorithmic trading strategies.",
   ];
 
   return (

@@ -4,21 +4,21 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Rajesh Kumar",
-      role: "Software Engineer",
-      text: "The algorithmic trading masterclass completely transformed my approach to the stock market. I'm now generating consistent returns with automated strategies!",
+      name: "Rajesh K.",
+      role: "Trader",
+      text: "This is the first class that finally explained WHY the market behaves the way it does. The strategies are easy to follow and I feel much more confident trading now.",
       rating: 5,
     },
     {
-      name: "Priya Sharma",
-      role: "Business Owner",
-      text: "Best investment I made was in my trading education. The AI tools and strategies taught here are game-changing. Highly recommended!",
+      name: "Priya S.",
+      role: "Part-Time Trader",
+      text: "Understanding Smart Money psychology saved me from so many common traps. The examples are very clear and practical—I can apply them immediately.",
       rating: 5,
     },
     {
-      name: "Amit Patel",
-      role: "Finance Professional",
-      text: "From zero knowledge to confidently running my own algo trading systems. The step-by-step approach and live support made all the difference.",
+      name: "Amit P.",
+      role: "Financial Analyst",
+      text: "Mahesh’s explanation of liquidity and market manipulation changed my trading forever. The insights are practical and easy to implement in real trades.",
       rating: 5,
     },
   ];
@@ -28,10 +28,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            What Our <span className="text-primary">Students</span> Say
+            What our <span className="text-primary">Students Say</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Join thousands of successful traders who transformed their financial future
+            Hear what our students say after learning Smart Money trading strategies
           </p>
         </div>
 

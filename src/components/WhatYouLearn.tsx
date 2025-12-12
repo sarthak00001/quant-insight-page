@@ -1,37 +1,43 @@
-import { Brain, TrendingUp, BarChart3, Zap, Shield, Cpu } from "lucide-react";
+import { Brain, Droplets, Target, BarChart3, Zap, Eye, Banknote, DollarSign, PiggyBank } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const WhatYouLearn = () => {
   const learnings = [
     {
       icon: Brain,
-      title: "AI-Powered Analysis",
-      description: "Learn to use cutting-edge AI tools to analyze market trends and predict movements.",
+      title: "The Smart Money Mindset",
+      description:
+        "How institutions think, plan, and operate differently from retail traders.",
     },
     {
-      icon: TrendingUp,
-      title: "Algorithmic Strategies",
-      description: "Master proven algorithmic trading strategies that generate consistent returns.",
+      icon: DollarSign,
+      title: "Liquidity & Manipulation",
+      description:
+        "How operators identify liquidity pockets and trigger market moves.",
+    },
+    {
+      icon: Target,
+      title: "Stop-Loss Psychology",
+      description:
+        "Why your SL becomes an entry signal for smart money—and how to escape manipulation.",
     },
     {
       icon: BarChart3,
-      title: "Technical Indicators",
-      description: "Understand key technical indicators and how to combine them for better decisions.",
+      title: "Market Structure of Institutions",
+      description:
+        "Accumulation → Manipulation → Expansion. Learn how these cycles play out on real charts.",
+    },
+    {
+      icon: Eye,
+      title: "Decoding Institutional Intent",
+      description:
+        "Understand manipulation, traps, sweeps, and how big players engineer moves.",
     },
     {
       icon: Zap,
-      title: "Automated Trading",
-      description: "Set up automated trading systems that work 24/7 without emotional bias.",
-    },
-    {
-      icon: Shield,
-      title: "Risk Management",
-      description: "Implement robust risk management techniques to protect your capital.",
-    },
-    {
-      icon: Cpu,
-      title: "Backtesting Methods",
-      description: "Learn to backtest and validate your strategies before deploying real capital.",
+      title: "Practical, Real-Chart Insights",
+      description:
+        "Mahesh breaks down institutional footprints and live chart behavior with clarity.",
     },
   ];
 
@@ -43,7 +49,8 @@ const WhatYouLearn = () => {
             What You'll <span className="text-primary">Learn</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Comprehensive curriculum designed to transform you into a confident algorithmic trader
+            A deep-dive into how the market truly works, backed by Smart Money
+            concepts and real institutional logic.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ import useLeadSubmit from "@/hooks/useLeadSubmit";
 import tradingBg from "@/assets/trading-bg.jpg";
 
 const RegistrationCTA = () => {
-  const { submitLead, loading, success } = useLeadSubmit();
+  const { submitLead, loading, success, whatsappLink } = useLeadSubmit();
 
   const [form, setForm] = useState({
     name: "",
@@ -47,9 +47,21 @@ const RegistrationCTA = () => {
               <h2 className="text-3xl font-bold text-green-600 mb-4">
                 🎉 Registered Successfully!
               </h2>
+              
               <p className="text-lg text-muted-foreground">
                 Thank you for registering. We'll contact you soon!
               </p>
+
+              <br></br>
+              {/* WhatsApp Join Button */}
+              <a
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-green-600 text-white px-9 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition"
+              >
+                Join WhatsApp Group →
+              </a>
             </div>
           ) : (
             // ORIGINAL VIEW — headings + form

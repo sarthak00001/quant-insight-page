@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import useLeadSubmit from "@/hooks/useLeadSubmit";
 
 const LeadFormModal = ({ onClose }) => {
-  const { submitLead, loading, success } = useLeadSubmit();
+  const { submitLead, loading, success, whatsappLink } = useLeadSubmit();
 
   const [form, setForm] = useState({
     name: "",
@@ -36,6 +36,16 @@ const LeadFormModal = ({ onClose }) => {
         {success ? (
           <div className="text-center text-green-600 font-semibold text-lg py-6">
             🎉 Registration Successful!
+            <br /><br />
+
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-600 text-white px-5 py-3 rounded-lg text-base font-semibold"
+            >
+              Join WhatsApp Group →
+            </a>
           </div>
         ) : (
           <form onSubmit={submit} className="space-y-4">
