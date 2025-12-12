@@ -143,10 +143,10 @@ const Hero = () => {
                   </div>
 
                   <div className="flex gap-4 text-sm mt-2">
-                    <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                    <span className="bg-black/20 backdrop-blur-sm px-3 py-1 rounded-full text-white">
                       ✓ Fund Manager
                     </span>
-                    <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                    <span className="bg-black/20 backdrop-blur-sm px-3 py-1 rounded-full">
                       ⚡ Smart Money Specialist
                     </span>
                   </div>
